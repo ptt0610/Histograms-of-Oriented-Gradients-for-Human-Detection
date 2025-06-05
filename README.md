@@ -4,9 +4,11 @@ HOG + SVM Pedestrian Detector Project
 This project implements a pedestrian detection system using Histogram of Oriented Gradients (HOG) features and a Support Vector Machine (SVM) classifier. It includes an ablation study to evaluate HOG orientation bins and a GUI for visualizing detection results [1].
 
 **Note**
+
 The training data images are supposed to be put in the "Others" folder due to the project's requirements. Because the data size is too large to upload to Github, the Other folders will only contain the saved model after training and plot results. Future users can put training data into 2 folders, "negative images" and "positive images" inside the "Others" folder to re-run the program.
 
-Data Source:
+**Data Source**
+
 The positive images are taken from the PETA image source [2]. All positive images are in size 64 width *128 height. The negative images are taken from the Kaggle Source [3], which consists of 19558 images of street background photos. There are approximately 120 images, including the pedestrians on the street and the pedestrians are very small compared to the background. These photos are not good for the purpose of training because they can make noise with pedestrian edges inside the negative images, so after selecting 2000 images, I manually check to ensure the negative images used for training and testing do not include any pedestrians. All negative images are in size 224x224, they will be cropped and resized to size 64x128 in the preprocessing phase.
 
 <img width="278" alt="image" src="https://github.com/user-attachments/assets/f66d0001-3776-4dbb-802c-adc3e2aa6148" />
