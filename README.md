@@ -69,7 +69,7 @@ Testing with GUI
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/4c120065-f1e8-4f22-809b-06c3ed19ef63" />
 
 
-References
+## RREFERENCE ##
 
 [1] Dalal, N., & Triggs, B. (2005). Histograms of Oriented Gradients for Human Detection.
 CVPR 2005.
