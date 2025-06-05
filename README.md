@@ -47,6 +47,7 @@ Step 2: Launch the GUI
   - Right: HOG visualization.
 (The GUI uses the 9-bin model by default (orientations=9).
 
+
 Step 3: Testing images using GUI
 ----------------------
 Run the GUI with images in Testing Images folder and save prediction result to prediction.xlsx
@@ -54,9 +55,12 @@ Run the GUI with images in Testing Images folder and save prediction result to p
 
 **RESULT**
 
+
 <img width="329" alt="image" src="https://github.com/user-attachments/assets/63288e02-5396-4262-92b7-5662c198d4ae" />
 
+
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/db1847ef-338f-4f70-8567-b4f2ef562d48" />
+
 
 Testing with GUI
 
@@ -66,9 +70,12 @@ Testing with GUI
 
 
 References
+
 [1] Dalal, N., & Triggs, B. (2005). Histograms of Oriented Gradients for Human Detection.
 CVPR 2005.
+
 [2] Deng, Y., Luo, P., Loy, C. C., & Tang, X. (2014). Pedestrian attribute recognition at far distance. In Proceedings of the 22nd ACM international conference on Multimedia (pp. 789–792). ACM. https://mmlab.ie.cuhk.edu.hk/projects/PETA.html
+
 [3] Mike Mazurov. House Rooms & Streets Image Dataset. https://www.kaggle.com/datasets/mikhailma/house-rooms-streets-image-dataset?resource=download
 
 
