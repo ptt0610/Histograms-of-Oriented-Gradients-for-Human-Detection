@@ -37,3 +37,8 @@ Step 2: Launch the GUI
   - Center: Detected image with green rectangles around pedestrians.
   - Right: HOG visualization.
 (The GUI uses the 9-bin model by default (orientations=9).
+
+Step 3: Testing images using GUI
+----------------------
+Run the GUI with images in Testing Images folder and save prediction result to prediction.xlsx
+
